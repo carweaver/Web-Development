@@ -1,0 +1,19 @@
+body{
+	background-image: width: 100px height: 100px url(IMG_4922.JPG);
+	background-repeat: repeat-x;
+}
+
+ul{
+	font-size: 100px;
+}
+
+table {
+	  box-shadow: 5px 10px red;
+	  color: blue;
+}
+
+#box1{
+	width: 100px;
+	background-color: green;
+
+}

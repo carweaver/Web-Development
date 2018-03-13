@@ -1,0 +1,44 @@
+body {
+	 text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 60px;
+}
+a {
+	content-align: left;
+}
+img {
+	width: 30%;
+	height: 490px;
+	vertical-align: text-bottom;
+}
+
+#div1, #div2 {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 200%;
+	content-align: center;
+	background-color: #00AEE8;
+	border: 5px solid red;
+	width: 30%;
+}
+#div3 {
+	text-align: left;
+}
+
+table{
+	border: 5px solid red;
+	font-size: 24px;
+	min-width: 30px;
+	max-width: 1000px;
+	background-color: #00AEE8;
+}
+#thead {
+	font-size: 30px;
+}
+#based {
+column-rule-width: 10px;
+}
