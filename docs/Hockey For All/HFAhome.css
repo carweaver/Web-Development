@@ -24,6 +24,8 @@ img {
 	background-color: #00AEE8;
 	border: 5px solid red;
 	width: 30%;
+	min-width: 100px;
+	max-width: 1000px; 
 }
 #div3 {
 	text-align: left;
@@ -33,12 +35,25 @@ table{
 	border: 5px solid red;
 	font-size: 24px;
 	min-width: 30px;
-	max-width: 1000px;
+	max-width: 10000px;
 	background-color: #00AEE8;
 }
 #thead {
 	font-size: 30px;
 }
-#based {
-column-rule-width: 10px;
+.col01 {
+	width: 25%;
+}
+.col02{
+	width: 30%;
+}
+
+.row01, .row02, .row03, .row04{
+	height: 50px;
+}
+
+
+
+#organizations {
+	color: red;
 }
