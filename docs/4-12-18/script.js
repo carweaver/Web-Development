@@ -12,5 +12,5 @@ var grad = new Date('2020,06,14')
 document.getElementById("grad").innerHTML = grad;
 
 var difference = grad.getTime() - date.getTime();
-difference = (difference/31556900000);
+difference = (difference/8.64e+7);
 document.getElementById('difference').innerHTML = difference;
