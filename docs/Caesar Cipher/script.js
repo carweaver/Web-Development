@@ -18,11 +18,13 @@ function encode() {
 		if(65 < charCode && charCode < 91){
 			charCode -= 66;
 			charCode += key
+			charCode %= 26
 			arr.push(String.fromCharCode(charCode+66))
 		}
 		else if (96 < charCode && charCode < 123){
 			charCode -= 97
 			charCode += key
+			charCode %= 26
 			arr.push(String.fromCharCode(charCode+97))
 		}
 		
@@ -31,4 +33,3 @@ function encode() {
 	}
 }
 
-// My code works for the most part except I couldn't figure out how to use modulo.
