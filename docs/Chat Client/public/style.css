@@ -1,0 +1,22 @@
+body {
+	background-color: turquoise;
+	font-family: "comic sans";
+}
+#others {
+
+}
+#divmine {
+	float: right;
+	
+}
+ul {
+	list-style-type: none;
+}
+li {
+	border-radius: 25px;
+    border: 2px; 
+    margin: 20px;
+    padding: 20px;
+	background-color: rgb(3,112,255);
+	font-size: 40px;
+}
